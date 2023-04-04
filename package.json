@@ -1,0 +1,41 @@
+{
+  "name": "three-mesh-bvh-json",
+  "version": "0.0.1",
+  "description": "Tools for converting three-mesh-bvh data to and from JSON for caching",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesmotronic/three-mesh-bvh-json.git"
+  },
+  "keywords": [
+    "three",
+    "mesh",
+    "bvh",
+    "serialize",
+    "deserialize",
+    "json"
+  ],
+  "author": "Neil Rackett",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mesmotronic/three-mesh-bvh-json/issues"
+  },
+  "homepage": "https://github.com/mesmotronic/three-mesh-bvh-json#readme",
+  "devDependencies": {
+    "@types/three": "^0.150.1",
+    "typescript": "^5.0.3"
+  },
+  "peerDependencies": {
+    "three": ">=0.140.0",
+    "three-mesh-bvh": ">=0.5"
+  }
+}
