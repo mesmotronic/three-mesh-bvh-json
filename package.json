@@ -32,10 +32,8 @@
   "homepage": "https://github.com/mesmotronic/three-mesh-bvh-json#readme",
   "devDependencies": {
     "@types/three": "^0.150.1",
-    "typescript": "^5.0.3"
-  },
-  "peerDependencies": {
     "three": ">=0.140.0",
-    "three-mesh-bvh": ">=0.5"
+    "three-mesh-bvh": ">=0.5",
+    "typescript": "^5.0.3"
   }
 }
