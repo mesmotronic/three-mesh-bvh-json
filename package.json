@@ -30,10 +30,13 @@
     "url": "https://github.com/mesmotronic/three-mesh-bvh-json/issues"
   },
   "homepage": "https://github.com/mesmotronic/three-mesh-bvh-json#readme",
-  "devDependencies": {
-    "@types/three": "^0.150.1",
+  "peerDependencies": {
+    "@types/three": ">=0.140.1",
     "three": ">=0.140.0",
     "three-mesh-bvh": ">=0.5",
-    "typescript": "^5.0.3"
+    "typescript": ">=5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
