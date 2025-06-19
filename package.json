@@ -1,5 +1,5 @@
 {
-  "name": "three-mesh-bvh-json",
+  "name": "@mesmotronic/three-mesh-bvh-json",
   "version": "0.0.1",
   "description": "Tools for converting three-mesh-bvh data to and from JSON for caching",
   "main": "lib/index.js",
